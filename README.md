@@ -12,17 +12,18 @@ This project demonstrates a complete ETL pipeline to process international trade
   - Pentaho Data Integration
   - Amazon Redshift
   - PostgreSQL
+  - Docker 
+  - Conda
 - **Data Volume:** ~6 million records
 - **ETL Phases:**
   1. **Extract:** Gather data from PostgreSQL, JSON, and CSV.
   2. **Transform:** Clean and reformat data for analysis.
   3. **Load:** Store cleaned data into Redshift via Amazon S3.
 
-## Folder Structure
 
 ---
 
-## Project Structure
+## Folder Structure
 ```plaintext
 ETL-Data-Engineering-Project/
 ├── data/                       # Sample data files (JSON and CSV)
@@ -39,15 +40,6 @@ ETL-Data-Engineering-Project/
 ```
 
 ---
-
-
-## Key Visuals
-1. **Pipeline Diagram:**
-   ![Pipeline Overview](screenshots/pipeline-diagram.png)
-2. **Star Schema:**
-   ![Star Schema](screenshots/star-schema.png)
-3. **Pentaho Workflow:**
-   ![Pentaho Workflow](screenshots/pentaho-workflow.png)
 
 ## How to Reproduce
 
@@ -120,16 +112,7 @@ Download the SQL script [here](https://drive.google.com/file/d/19U7l0kp3mEh8SYYG
 
 ---
 
-### Step 4: Clone the Repository
-Clone this repository and set up the folder structure:
-```bash
-git clone git@github.com:your-username/ETL-Data-Engineering-Project.git
-cd ETL-Data-Engineering-Project
-```
-
----
-
-### Step 5: Run the ETL Pipeline
+### Step 4: Run the ETL Pipeline
 1. Navigate to the `scripts/` folder and run the Python ETL script:
    python etl_pipeline.py
 2. Verify the data in Redshift using your preferred SQL client.
