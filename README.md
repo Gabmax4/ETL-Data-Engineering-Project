@@ -27,7 +27,7 @@ This project demonstrates a complete ETL pipeline to process international trade
 ETL-Data-Engineering-Project/
 ├── data/                       # Sample data files (JSON and CSV)
 ├── scripts/                    # Python scripts for ETL
-│   └── etl_pipeline.py         # Main ETL script
+│   └── template_etl_oec.ipynb  # Main ETL script
 ├── pentaho/                    # Pentaho workflows
 │   └── transformations.ktr     # Transformation files
 ├── requirements.txt            # Python dependencies
