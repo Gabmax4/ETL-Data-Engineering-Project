@@ -75,12 +75,14 @@ To set up the PostgreSQL database, it's recommended to use Docker to avoid insta
 **For WSL 2, Linux, or macOS:**
 
 ```bash
-sudo docker run -d --name=postgres -p 5433:5432 -v postgres-volume:/var/lib/postgresql/data -e POSTGRES_PASSWORD=mysecretpass postgres```
+sudo docker run -d --name=postgres -p 5433:5432 -v postgres-volume:/var/lib/postgresql/data -e POSTGRES_PASSWORD=mysecretpass postgres
+```
 
 **For Windows:**
 
 ```bash
-docker run -d --name=postgres -p 5433:5432 -v postgres-volume:/var/lib/postgresql/data -e POSTGRES_PASSWORD=mysecretpass postgres```
+docker run -d --name=postgres -p 5433:5432 -v postgres-volume:/var/lib/postgresql/data -e POSTGRES_PASSWORD=mysecretpass postgres
+```
 
 **Explanation:**
 
