@@ -121,9 +121,9 @@ Download the SQL script [here](https://drive.google.com/file/d/19U7l0kp3mEh8SYYG
 
 ### Key Visuals
 
-1. **Pipeline Diagram:** [Pipeline Overview](screenshots/pipeline-diagram.png)
-2. **Star Schema:** [Star Schema](screenshots/star-schema.png)
-3. **Pentaho Workflow:** [Pentaho Workflow](screenshots/pentaho-workflow.png)
+1. **Pipeline Diagram:** ![Pipeline Overview](screenshots/pipeline-diagram.png)
+2. **Star Schema:** ![Star Schema](screenshots/star-schema.png)
+3. **Pentaho Workflow:** ![Pentaho Workflow](screenshots/pentaho-workflow.png)
 
 ---
 
