@@ -98,7 +98,8 @@ docker run -d --name=postgres -p 5433:5432 -v postgres-volume:/var/lib/postgresq
 2. Create a Conda environment for the project:
 ```bash 
    conda create --name etl-project python=3.9
-   conda activate etl-project```
+   conda activate etl-project
+```
    
 3. Open DataSpell and select the Conda environment created above.
 
@@ -123,7 +124,8 @@ Download the SQL script [here](https://drive.google.com/file/d/19U7l0kp3mEh8SYYG
 Clone this repository and set up the folder structure:
 ```bash
 git clone git@github.com:your-username/ETL-Data-Engineering-Project.git
-cd ETL-Data-Engineering-Project```
+cd ETL-Data-Engineering-Project
+```
 
 ---
 
